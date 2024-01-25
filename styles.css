@@ -1,0 +1,36 @@
+
+body{
+    text-align: center;
+    width: 50%;
+}
+
+div{
+    position: relative;
+    left: 50%;
+    top: 40%;
+    width: 40%;
+}
+
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+
+}
+
+
+ul li div{
+    display: inline-block;
+    list-style: none;
+    color: black;
+    font: 20rem;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+    text-align: center;
+    align-items: center;
+}
